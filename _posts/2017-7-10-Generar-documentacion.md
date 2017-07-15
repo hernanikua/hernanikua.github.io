@@ -67,8 +67,7 @@ Lo más cómodo es instalarlo localmente con el comando **$ npm install --save-d
 
 A continuación incluimos las siguientes líneas en los scripts de **package.json**:
 
-_"scripts": {...
-    "docs": "node_modules/.bin/compodoc -p src/tsconfig.json -d docs",
+_"scripts": {..."docs": "node_modules/.bin/compodoc -p src/tsconfig.json -d docs",
     "serve-docs": "node_modules/.bin/compodoc -s -d docs"
     ...
   }_
