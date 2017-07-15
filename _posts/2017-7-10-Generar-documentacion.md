@@ -10,11 +10,11 @@ La generación de documentación facilita el desarrollo de los proyectos a lo la
 
 Si trabajamos con **Atom** podemos utilizar dos librerías para automatizar la generación de documentación. Instalamos en el editor el paquete "[Docblockr](https://atom.io/packages/docblockr)", que facilita comentar propiedades y métodos de nuestras clases. Por otro lado necesitamos "[Typedoc](http://typedoc.org/)" para generar la documentación, en formato HTML, a partir de los comentarios incluídos mediante **Docblockr**.
 
-**Dockblockr** lo instalaremos desde la pantalla "Settings" (Ctrl + ,) de **Atom**.
+**Docblockr** lo instalaremos desde la pantalla "Settings" (Ctrl + ,) de **Atom**.
 
 Para utilizar **Typedoc** necesitamos tener instalado [Node.js](https://nodejs.org "Node.js"). A continuación lo podremos instalar mediante el comando **npm install -g typedoc**.
 
-## Trabajo con Dockblockr
+## Trabajo con Docblockr
 
 Para generar un bloque de comentarios teclearemos **/**** y a continuación pulsaremos el **Tabulador** o **Enter**. 
 
@@ -69,8 +69,11 @@ A continuación incluimos las siguientes líneas en los scripts de **package.jso
 
 _"scripts": {
     ...
+    
     "docs": "node_modules/.bin/compodoc -p src/tsconfig.json -d docs",
+    
     "serve-docs": "node_modules/.bin/compodoc -s -d docs"
+    
     ...
   }_
   
