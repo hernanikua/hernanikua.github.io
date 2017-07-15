@@ -59,8 +59,6 @@ Para generar la documentación podemos hacerlo ejecutando un comando en un termi
 
 **$ typedoc --experimentalDecorators --target "es5" --module "commonjs" --ignoreCompilerErrors  --out doc/ src/**
 
-También podemos instalarlo localmente con $ **npm install --save-dev typedoc**
-
 ## Compodoc
 
 A diferencia de **Typedoc**, que documenta Typescript, [Compodoc](https://github.com/compodoc/compodoc) se ha diseñado para documentar Angular.
