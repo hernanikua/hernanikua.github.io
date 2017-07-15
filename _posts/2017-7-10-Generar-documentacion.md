@@ -82,6 +82,39 @@ El resultado es bastante impresionante:
 
 ![Resultado de Compodoc]({{site.baseurl}}/images/compodoc.gif)
 
+Los comentarios que interpreta **Compodoc** deben tener el siguiente formato:
+
+{% highlight ts %}
+/**
+ * Este comentario lo interpreta Compodoc
+ */
+{% endhighlight %}
+
+Para Incluir saltos de línea en la  documentación deberemos dejar una línea en blanco:
+
+{% highlight ts %}
+/**
+ * Primera línea
+ *
+ * Segunda línea
+ */
+{% endhighlight %}
+
+Si quisiéramos documentar una función deberemos utilizar las etiquetas JSDoc **@returns** y **@param <param name>**
+
+{% highlight ts %}
+/**
+ * @param {string} target  El target a procesar, ver {@link Todo}
+ *
+ * @example
+ * Este es un buen ejemplo
+ * processTarget('yo')
+ *
+ * @returns      El número del target procesado
+ */
+function processTarget(target:string):number;
+{% endhighlight %}
+
 
 Se puede bajar una demo de una [aplicación TodoMVC](https://github.com/compodoc/compodoc-demo-todomvc-angular) en Angular, documentada y lista para **Compodoc**.
 
