@@ -57,4 +57,31 @@ Si el puntero lo colocamos justo encima de la declaración de una variable, el b
 
 Para generar la documentación tendremos que ejecutar un comando en un terminal, incluyendo el directorio del cual queremos extraer los comentarios del código (src) y el directorio en el cual se va a generar la documentación html (doc).
 
-_typedoc --experimentalDecorators --target "es5" --module "commonjs" --ignoreCompilerErrors  --out doc/ src/_
+**$ typedoc --experimentalDecorators --target "es5" --module "commonjs" --ignoreCompilerErrors  --out doc/ src/**
+
+## Compodoc
+
+A diferencia de **Typedoc**, que documenta Typescript, [Compodoc](https://github.com/compodoc/compodoc) se ha diseñado para documentar Angular.
+
+Lo más cómodo es instalarlo localmente con el comando **$ npm install --save-dev compodoc**
+
+A continuación incluimos las siguientes líneas en los scripts de **package.json**:
+
+_"scripts": {
+    ...
+    "docs": "node_modules/.bin/compodoc -p src/tsconfig.json -d docs",
+    "serve-docs": "node_modules/.bin/compodoc -s -d docs"
+    ...
+  }_
+  
+El primer script generará la documentación en el directorio **docs** al ejecutar **$ npm run docs**
+
+El segundo script servirá la documentación en **localhos:8080** al ejecutar **$ npm run serve-docs**
+
+El resultado es bastante impresionante:
+
+![Compodoc]({{site.baseurl}}/images/compodoc.gif)
+
+Se puede bajar una demo de una [aplicación TodoMVC](https://github.com/compodoc/compodoc-demo-todomvc-angular) en Angular, documentada y lista para **Compodoc**.
+
+También está disponible [la guía de uso](https://compodoc.github.io/website/guides/getting-started.html "Guía de uso de Compodoc").
