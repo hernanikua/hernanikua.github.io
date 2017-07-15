@@ -80,7 +80,8 @@ El segundo script servirá la documentación en **localhos:8080** al ejecutar **
 
 El resultado es bastante impresionante:
 
-![Compodoc]({{site.baseurl}}/images/compodoc.gif)
+![Resultado de Compodoc]({{site.baseurl}}/images/compodoc.gif)
+
 
 Se puede bajar una demo de una [aplicación TodoMVC](https://github.com/compodoc/compodoc-demo-todomvc-angular) en Angular, documentada y lista para **Compodoc**.
 
