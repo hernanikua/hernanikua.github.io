@@ -69,11 +69,8 @@ A continuación incluimos las siguientes líneas en los scripts de **package.jso
 
 _"scripts": {
     ...
-    
     "docs": "node_modules/.bin/compodoc -p src/tsconfig.json -d docs",
-    
     "serve-docs": "node_modules/.bin/compodoc -s -d docs"
-    
     ...
   }_
   
