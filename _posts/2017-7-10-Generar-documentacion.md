@@ -82,7 +82,7 @@ El resultado es bastante impresionante:
 
 ![Resultado de Compodoc]({{site.baseurl}}/images/compodoc.gif)
 
-Los comentarios que interpreta **Compodoc** deben tener el siguiente formato:
+Los comentarios que interpreta **Compodoc** deben de tener el siguiente formato:
 
 {% highlight ts %}
 /**
