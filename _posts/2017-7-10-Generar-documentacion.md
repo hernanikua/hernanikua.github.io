@@ -59,6 +59,11 @@ Para generar la documentación tendremos que ejecutar un comando en un terminal,
 
 **$ typedoc --experimentalDecorators --target "es5" --module "commonjs" --ignoreCompilerErrors  --out doc/ src/**
 
+El resultado es una web navegable describiendo la arquitectura de nuestra aplicación.
+
+![Resultado Typedoc]({{site.baseurl}}/images/typedoc.gif)
+
+
 ## Compodoc
 
 A diferencia de **Typedoc**, que documenta Typescript, [Compodoc](https://github.com/compodoc/compodoc) se ha diseñado para documentar Angular.
@@ -100,6 +105,8 @@ Para Incluir saltos de línea en la  documentación deberemos dejar una línea e
  */
 {% endhighlight %}
 
+### Etiquetas JSDoc
+
 Si quisiéramos documentar una función deberemos utilizar las etiquetas JSDoc **@returns** y **@param <param name>**
 
 {% highlight ts %}
@@ -115,6 +122,23 @@ Si quisiéramos documentar una función deberemos utilizar las etiquetas JSDoc *
 function processTarget(target:string):number;
 {% endhighlight %}
 
+Para indicar un enlace utilizamos le etiqueta **@link**
+
+{% highlight ts %}
+
+//Para una referencia interna
+
+{@link Todo}
+[Todo]{@link Todo}
+{@link Todo|TodoClass}
+
+//Para un enlace externo
+
+[Google]{@link http://www.google.com}
+{@link http://www.apple.com|Apple}
+{@link https://github.com GitHub}
+
+{% endhighlight %}
 
 Se puede bajar una demo de una [aplicación TodoMVC](https://github.com/compodoc/compodoc-demo-todomvc-angular) en Angular, documentada y lista para **Compodoc**.
 
