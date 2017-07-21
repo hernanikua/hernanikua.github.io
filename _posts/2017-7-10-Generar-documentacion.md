@@ -1,9 +1,10 @@
 ---
 published: true
 layout: post
-category: angular
+category: Angular
 tags:
   - angular
+title: Ejemplos de scripts y herramientas de desarrollo
 ---
 La generación de documentación facilita el desarrollo de los proyectos a lo largo del tiempo. Tanto si el que retoma la programación es el desarrollador actual como si son otros ajenos al desarrollo original, la generación de documentación en formato HTML a partir de comentarios insertados en el código, les facilitará la comprensión de la arquitectura de la aplicación.
 
