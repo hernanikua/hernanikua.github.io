@@ -54,9 +54,6 @@ collections:
   my_categories:
     output: true
     permalink: /category/:name/
-  my_tags:
-    output: true
-    permalink: /tag/:name/
 
 # Separador de Read more
 excerpt_separator: "\n\n\n"
