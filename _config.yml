@@ -50,10 +50,12 @@ url: http://hernanikua.github.io
 baseurl: ""
 
 # Categorias y tags
-collections:
-  my_categories:
-    output: true
-    permalink: /category/:name/
+permalink: /:categories/:title/
+
+# collections:
+  # my_categories:
+    # output: true
+    # permalink: /category/:name/
 
 # Separador de Read more
 excerpt_separator: "\n\n\n"
