@@ -1,7 +1,7 @@
 ---
 layout: post
-title: ¡Allá vamos!
-category: general
+title: Todo lo que no se incluye en el desarrollo
+category: General
 tags:
   - general
 published: true
