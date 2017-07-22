@@ -83,7 +83,7 @@ _"scripts": {
   
 El primer script generará la documentación en el directorio **docs** al ejecutar **$ npm run docs**
 
-El segundo script servirá la documentación en **localhos:8080** al ejecutar **$ npm run serve-docs**
+El segundo script servirá la documentación en **localhost:8080** al ejecutar **$ npm run serve-docs**
 
 El resultado es bastante impresionante:
 
