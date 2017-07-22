@@ -1,11 +1,8 @@
 ---
 layout: post
 title: ¡Allá vamos!
-category: General
-tags:
-  - general
 published: true
-categories: General
+categories: general
 ---
 
 Aquí empiezo mi blog dedicado al desarrollo Frontend. Además de HTML, CSS y Javascript, trataré de aportar mi granito de arena en tecnologías como Angular y Nativescript.
