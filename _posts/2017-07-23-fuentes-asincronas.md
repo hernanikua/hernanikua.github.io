@@ -89,3 +89,10 @@ En el ejemplo anterior el archivo **fuentes.css** sería del siguiente modo:
   src: ...;
 }
 {% endhighlight %}
+
+## CSS Callbacks
+
+## JavaScript Callbacks
+
+## Timeouts
+
