@@ -12,7 +12,7 @@ Podemos utilizar WebFont Loader de manera asíncrona, evitando así bloquear la 
 	
    WebFontConfig = {
       google: {
-	  	families: [ 'Ubuntu:300,400,500,700' ]
+	  	families: [ 'Ubuntu:300,400,500,700','Lemonada:300,400,600' ]
 	  }
    };
 
@@ -47,3 +47,5 @@ WebFontConfig = {
 El identificador lo obtendremos en la pantalla que nos presenta el script por defecto de Typekit:
 
 ![Obtener el identificador de las fuentes]({{site.baseurl}}/images/fuentes.png)
+
+
