@@ -44,6 +44,6 @@ WebFontConfig = {
 
 {% endhighlight %}
 
-El identificador lo obtendremos en la pantalla que nos presenta el script que deberíamos incluir:
+El identificador lo obtendremos en la pantalla que nos presenta el script por defecto de Typekit:
 
 ![Obtener el identificador de las fuentes]({{site.baseurl}}/images/fuentes.png)
