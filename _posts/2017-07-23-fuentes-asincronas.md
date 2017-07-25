@@ -63,7 +63,7 @@ WebFontConfig = {
 };
 {% endhighlight %}
 
-En el ejemplo anterior el archivo fuentes.css sería del siguiente modo:
+En el ejemplo anterior el archivo **fuentes.css** sería del siguiente modo:
 
 {% highlight ts %}
 @font-face {
