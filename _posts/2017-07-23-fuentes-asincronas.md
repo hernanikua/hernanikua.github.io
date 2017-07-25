@@ -92,6 +92,33 @@ En el ejemplo anterior el archivo **fuentes.css** sería del siguiente modo:
 
 ## CSS Callbacks
 
+WebFont Loader aplica nombres de clase al elemento HTML durante la operación de carga:
+
+    .wf-loading — Cuando todas las fuentes han sido pedidas.
+    .wf-active — Cuando están disponibles todas las fuentes.
+    .wf-inactive — Cuando ninguna fuente ha podido ser descargada.
+    
+Tambíen se añaden clases a cada fuente:
+
+    .wf-<familyname>-<fvd>-loading — Una fuente única ha sido pedida.
+    .wf-<familyname>-<fvd>-active — Una fuente única está disponible.
+    .wf--<familyname>-<fvd>-inactive — Una única fuente no ha podido ser descargada.
+
+Esto nos permite cambiar las fuentes una vez se han descargado:
+
+
+{% highlight ts %}
+/* Fuentes del sistema por defecto */
+body {
+	font-family: arial, sans-serif;
+}
+
+/* Fuentes descargadas */
+.wf-active body {
+	font-family: 'Ubuntu';
+}
+{% endhighlight %}
+
 ## JavaScript Callbacks
 
 ## Timeouts
