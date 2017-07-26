@@ -6,7 +6,10 @@ title: Cargar las fuentes de manera asíncrona con WebFont Loader
 ---
 **WebFont Loader** es una librería de javascript que ofrece un mayor control de la carga de las fuentes en una web. Permite gestionar la carga de varios proveedores de fuentes. Ha sido desarrollado conjuntamente por **Google** y **Typekit**. 
 
-Podemos utilizar WebFont Loader de manera asíncrona, evitando así bloquear la carga de la página mientras se descargan las fuentes. En el siguiente ejemplo cargamos la  familia de fuentes **Ubuntu** desde el servicio de [Google Fonts](https://fonts.google.com/):
+Podemos utilizar WebFont Loader de manera asíncrona, evitando así bloquear la carga de la página mientras se descargan las fuentes.
+
+
+En el siguiente ejemplo cargamos la  familia de fuentes **Ubuntu** desde el servicio de [Google Fonts](https://fonts.google.com/):
 
 {% highlight ts %}
 	
