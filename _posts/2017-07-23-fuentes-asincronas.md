@@ -123,3 +123,18 @@ body {
 ## JavaScript Callbacks
 
 ## Timeouts
+
+Podemos definir durante cuanto tiempo vamos a esperar a la descarga de la fuente. Si no se descarga en el tiempo predefinido se dejará la tipografía por defecto.
+
+{% highlight ts %}
+
+WebFontConfig = {
+		 typekit: {
+			 id: 'ycv4fpr'
+			},
+            timeout: 2000
+	 };
+
+{% endhighlight %}
+
+
