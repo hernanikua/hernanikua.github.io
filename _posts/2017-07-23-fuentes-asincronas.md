@@ -125,7 +125,7 @@ body {
 
 ## JavaScript Callbacks
 
-LOs eventos de Javascripts se implementan como funciones callback en el objeto de configuración **WebFontConfig**.
+Los eventos de Javascripts se implementan como funciones callback en el objeto de configuración **WebFontConfig**.
 
 {% highlight ts %}
 
@@ -154,5 +154,3 @@ WebFontConfig = {
 	 };
 
 {% endhighlight %}
-
-
