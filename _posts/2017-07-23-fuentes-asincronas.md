@@ -104,7 +104,7 @@ Tambíen se añaden clases a cada fuente:
     .wf-<familia>-<variante>-active — Una fuente única está disponible.
     .wf--<familia>-<variante>-inactive — Una única fuente no ha podido ser descargada.
     
-Donde "<familia>" es el nombre de la fuente y "<variante>" es un código formado por el estilo normal o itálica, indicado por las consonantes "n" o "i", y el peso, indicado por el primer dígito del peso, como el "4" para 400. Un ejemplo sería **.wf-Ubuntu-i4-active**, es decir, la fuente es Ubuntu, itálica, de 400 de peso.
+Donde "<familia>" es el nombre de la fuente y "<variante>" es un código formado por el estilo normal o itálica, indicado por las consonantes "n" o "i", y el peso, indicado por el primer dígito del peso, como el "4" para 400. Un ejemplo sería **.wf-ubuntu-i4-active**, es decir, la fuente es Ubuntu, itálica, de 400 de peso. Hay que tener en cuenta que los nombres de las fuentes se modifican de modo que se quitan los espacios y se convierte todo a minúsculas, por ejemplo, Droid Sans se convierte en droidsans.
   
 En el siguiente ejemplo cambiamos las fuentes una vez se han descargado:
 
@@ -121,6 +121,21 @@ body {
 {% endhighlight %}
 
 ## JavaScript Callbacks
+
+LOs eventos de Javascripts se implementan como funciones callback en el objeto de configuración **WebFontConfig**.
+
+{% highlight ts %}
+
+WebFontConfig = {
+  loading: function() {},
+  active: function() {},
+  inactive: function() {},
+  fontloading: function(familyName, fvd) {},
+  fontactive: function(familyName, fvd) {},
+  fontinactive: function(familyName, fvd) {}
+};
+
+{% endhighlight %}
 
 ## Timeouts
 
