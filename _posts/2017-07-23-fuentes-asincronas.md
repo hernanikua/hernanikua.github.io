@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 categories: web
 title: Cargar las fuentes de manera asíncrona con WebFont Loader
