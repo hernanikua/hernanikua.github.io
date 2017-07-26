@@ -154,3 +154,5 @@ WebFontConfig = {
 	 };
 
 {% endhighlight %}
+
+Teniendo en cuenta que las fuentes son un recurso que habitualmente pesa bastante, la carga asíncrona evita que el resto de elementos de la página se bloqueen, consiguiendo una navegación más fluida.
