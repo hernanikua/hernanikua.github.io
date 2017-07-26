@@ -140,7 +140,7 @@ WebFontConfig = {
 
 {% endhighlight %}
 
-## Timeouts
+## Timeout
 
 Podemos definir durante cuanto tiempo vamos a esperar a la descarga de la fuente. Si no se descarga en el tiempo predefinido se dejará la tipografía por defecto.
 
