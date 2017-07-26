@@ -103,11 +103,11 @@ WebFont Loader aplica nombres de clase al elemento HTML durante la operación de
     
 Tambíen se añaden clases a cada fuente:
 
-    .wf-<familia>-<variante>-loading — Una fuente única ha sido pedida.
-    .wf-<familia>-<variante>-active — Una fuente única está disponible.
-    .wf--<familia>-<variante>-inactive — Una única fuente no ha podido ser descargada.
+    .wf-[familia]-[variante]-loading — Una fuente única ha sido pedida.
+    .wf-[familia]-[variante]-active — Una fuente única está disponible.
+    .wf-[familia]-[variante]-inactive — Una única fuente no ha podido ser descargada.
     
-Donde "<familia>" es el nombre de la fuente y "<variante>" es un código formado por el estilo normal o itálica, indicado por las consonantes "n" o "i", y el peso, indicado por el primer dígito del peso, como el "4" para 400. Un ejemplo sería **.wf-ubuntu-i4-active**, es decir, la fuente es Ubuntu, itálica, de 400 de peso. Hay que tener en cuenta que los nombres de las fuentes se modifican de modo que se quitan los espacios y se convierte todo a minúsculas, por ejemplo, Droid Sans se convierte en droidsans.
+Donde "[familia]" es el nombre de la fuente y "[variante]" es un código formado por el estilo normal o itálica, indicado por las consonantes "n" o "i", y el peso, indicado por el primer dígito del peso, como el "4" para 400. Un ejemplo sería **.wf-ubuntu-i4-active**, es decir, la fuente es Ubuntu, itálica, de 400 de peso. Hay que tener en cuenta que los nombres de las fuentes se modifican de modo que se quitan los espacios y se convierte todo a minúsculas, por ejemplo, Droid Sans se convierte en droidsans.
   
 En el siguiente ejemplo cambiamos las fuentes una vez se han descargado:
 
