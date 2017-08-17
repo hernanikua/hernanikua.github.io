@@ -1,0 +1,23 @@
+---
+published: false
+title: salvattore.js
+---
+[Salvattore.js](http://salvattore.com/) es una librería que permite crear estructuras tipo "Masonry", es decir, ordenar visualmente elementos HTML como si fueran ladrillos. La configuración se realiza mediante CSS de una manera muy sencilla.
+
+
+## Cómo funciona
+
+Salvattore distribuye los elementos del grid según el número de columnas que se espedifiquen. Lo primero que hay que hacer es incluir el atributo **data-columns** al elemento grid.
+
+{% highlight ts %}
+
+<div id="grid" data-columns>
+	<div>Elemento 1</div>
+	<div>Elemento 2</div>
+	<div>Elemento 3</div>
+	…
+	<div>Elemento 10</div>
+</div>
+
+{% endhighlight %}
+
