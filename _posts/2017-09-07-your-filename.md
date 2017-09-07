@@ -48,7 +48,7 @@ Sólo nos hace falta incluir el archivo en el HTML.
 Podemos incluir unas reglas CSS más para configurarlo según nuestras necesidades:
 
 <iframe
-  src="https://embed.plnkr.co/plunk/OUi5LevpIstJYVwXrOVn?show=app,preview"
+  src="https://embed.plnkr.co/plunk/bW5vRmdSp4WN6rX09AHi?show=app,preview"
   frameborder="0"
   width="100%"
   height="480px"
