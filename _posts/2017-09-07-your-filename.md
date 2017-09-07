@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: salvattore.js
 layout: post
 categories: web
@@ -53,4 +53,3 @@ Podemos incluir unas reglas CSS más para configurarlo según nuestras necesidad
   width="100%"
   height="480px"
 ></iframe>
-
