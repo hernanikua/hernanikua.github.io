@@ -1,6 +1,8 @@
 ---
 published: false
 title: salvattore.js
+layout: post
+categories: web
 ---
 [Salvattore.js](http://salvattore.com/) es una librería que permite crear estructuras tipo "Masonry", es decir, ordenar visualmente elementos HTML como si fueran ladrillos. La configuración se realiza mediante CSS de una manera muy sencilla. Lo podemos descargar de [salvattore.min.js](https://raw.githubusercontent.com/rnmp/salvattore/master/dist/salvattore.min.js)
 
