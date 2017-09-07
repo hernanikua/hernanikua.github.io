@@ -21,3 +21,16 @@ Salvattore distribuye los elementos del grid según el número de columnas que s
 
 {% endhighlight %}
 
+A continuación añadiremos las siguientes reglas css
+
+{% highlight ts %}
+
+#grid[data-columns]::before {
+	content: '3 .column.size-1of3';
+}
+
+.column { float: left; }
+.size-1of3 { width: 33.333%; }
+
+{% endhighlight %}
+
