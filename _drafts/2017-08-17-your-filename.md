@@ -42,6 +42,8 @@ Sólo nos hace falta incluir el archivo en el HTML.
 
 {% endhighlight %}
 
+Podemos incluir unas reglas CSS más para configurarlo según nuestras necesidades:
+
 <iframe
   src="https://embed.plnkr.co/plunk/bW5vRmdSp4WN6rX09AHi?show=app,preview"
   frameborder="0"
