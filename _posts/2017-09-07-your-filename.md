@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: salvattore.js
 layout: post
 categories: web
