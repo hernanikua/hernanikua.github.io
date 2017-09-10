@@ -52,4 +52,8 @@ Podemos incluir unas reglas CSS más para configurarlo según nuestras necesidad
   frameborder="0"
   width="100%"
   height="480px"
-></iframe>
+  allowfullscreen="allowfullscreen"
+  frameborder="0"
+>
+Cargando Plunk...
+</iframe>
