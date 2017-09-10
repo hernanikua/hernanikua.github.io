@@ -11,10 +11,13 @@ Existen tres tipos de directivas:
 1. **Directivas de atributo**, cambian la apariencia o comportamiento de un elmento, componente u otra directiva.
 
 
-
 <iframe
-  src="https://embed.plnkr.co/plunk/OUi5LevpIstJYVwXrOVn?show=app,preview"
+  src="https://embed.plnkr.co/OUi5LevpIstJYVwXrOVn/?t=run"
   frameborder="0"
   width="100%"
   height="480px"
-></iframe>
+  allowfullscreen="allowfullscreen"
+  frameborder="0"
+>
+Cargando Plunk...
+</iframe>
