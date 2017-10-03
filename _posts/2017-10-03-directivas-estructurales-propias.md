@@ -41,7 +41,7 @@ Utilizaremos **@Hostlistener** para recoger el evento "click" sobre el elemento 
 Para construir la directiva necesitamos utilizar el "lifecycle hook" **ngAfterContentInit()**.
 
 <iframe
-  src="https://embed.plnkr.co/OUi5LevpIstJYVwXrOVn/?t=run"
+  src="https://embed.plnkr.co/OUi5LevpIstJYVwXrOVn/?show=app.component.ts,preview&t=run"
   frameborder="0"
   width="100%"
   height="480px"
