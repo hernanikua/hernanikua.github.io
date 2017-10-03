@@ -1,5 +1,8 @@
 ---
 published: false
+title: Directivas estructurales propias
+layout: post
+categories: angular
 ---
 Las direcitvas de Angular son una parte fundamental del Framework. De hecho los componentes son diretivas con un template asociado.
 
