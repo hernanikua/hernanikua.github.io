@@ -63,7 +63,7 @@ Cargando Plunk...
 **map(), filter(), find(), reduce(), forEach(), some()**.
 
 - **toArray():** Devuelve los elementos como un Array.
-- **changes():** Los cambios pueden observarse suscribiendo al Observable "change" que implementa QueryList. Cada vez que un elemento hijo es añadido, borrado o movido, el QueryList se actualizará, y el Observable "change" emitirá un nuevo valor.
+- **changes():** Los cambios pueden observarse suscribiendo al Observable "change" que implementa **QueryList**. Cada vez que un elemento hijo es añadido, borrado o movido, el **QueryList** se actualizará, y el Observable "change" emitirá un nuevo valor.
 
 {% highlight ts %}
 
