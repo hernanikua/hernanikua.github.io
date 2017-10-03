@@ -46,3 +46,20 @@ Para construir la directiva necesitamos utilizar el "lifecycle hook" **ngAfterCo
 >
 Cargando Plunk...
 </iframe>
+
+**@ContentChildren** devuelve un objeto de tipo QueryList que almacena un listado de items que se pueden recorrer.
+
+## QueryList API
+
+### Propiedades
+
+- **first:** obtiene el primer elemento.
+- **last:** obtiene el último elemento.
+- **length:** obtiene el número de elementos.
+
+
+### Métodos
+
+
+
+
