@@ -77,4 +77,4 @@ Cargando Plunk...
 
 {% endhighlight %} 
 
-En el ejemplo presentado solo utilizamos el método **toArray()**
+En el ejemplo presentado solo utilizamos el método **toArray()**.
