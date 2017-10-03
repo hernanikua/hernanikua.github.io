@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Directivas estructurales propias
 layout: post
 categories: angular
