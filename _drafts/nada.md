@@ -10,8 +10,29 @@ Existen tres tipos de directivas:
 1. **Directivas estructurales**, crean y destruyen elementos del DOM.
 1. **Directivas de atributo**, cambian la apariencia o comportamiento de un elemento, componente u otra directiva.
 
-Para crear una directiva estructural propia, habitualmente, se utilizan las etiquetas <ng-content> y <ng-template>. <ng-content> da soporte al html que compone la directiva. el contenido de <ng-template> no se renderiza en al navegador y puede contener html que insertaremos en <ng-content> según nuestras necesidades.
+Para crear una directiva estructural propia, habitualmente, se utilizan las etiquetas <ng-content> y <ng-template>. <ng-content> dará soporte al html que compone la directiva. El contenido de <ng-template> no se renderiza en al navegador y puede contener html que insertaremos en <ng-content> según nuestras necesidades. Mediante <ng-template> facilitamos la configuración de la directiva.
 
+{% highlight ts %}
+
+<button class="btn-abrir" [tooltip]="{posicion:'abajo'}">
+
+	<ng-container #vc></ng-container>
+
+      <ng-template>
+        ><span class="tip">Abrir menú</span>
+      </ng-template>
+
+      <ng-template>
+        X<span class="tip">Cerrar menú</span>
+      </ng-template>
+      
+ </button>
+
+{% endhighlight %} 
+
+Necesitamos diferentes decoradores para construir la directtiva.
+
+Utilizaremos **@Hostlistener** para recoger el evento "click" sobre el elemento al que hemos asociado la directiva. Además necesitamos otros decoradores, **@ContentChild** para obtener una referencia a <ng-container> y **@ContentChildren** para acceder al contenido de todos los <ng-template>. Utilizaremos **@HostBinding** para acceder al elemento en el que hemos definido la directiva y poder incluir una nueva clase al mismo.
 
 <iframe
   src="https://embed.plnkr.co/OUi5LevpIstJYVwXrOVn/?t=run"
