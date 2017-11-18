@@ -67,20 +67,21 @@ El resultado es una web navegable describiendo la arquitectura de nuestra aplica
 
 A diferencia de **Typedoc**, que documenta Typescript, [Compodoc](https://github.com/compodoc/compodoc) se ha diseñado para documentar Angular.
 
-Lo más cómodo es instalarlo localmente con el comando **$ npm install --save-dev compodoc**
+Lo más cómodo es instalarlo localmente con el comando **$ npm install --save-dev @compodoc/compodoc**
 
-A continuación incluimos las siguientes líneas en los scripts de **package.json**:
+A continuación incluimos las siguiente línea en los scripts de **package.json**:
 
 _"scripts": {
 ...
-"docs": "node_modules/.bin/compodoc -p src/tsconfig.json -d docs",
-    "serve-docs": "node_modules/.bin/compodoc -s -d docs"
+"compodoc": "./node_modules/.bin/compodoc -p tsconfig.json"
     ...
   }_
   
-El primer script generará la documentación en el directorio **docs** al ejecutar **$ npm run docs**
+Para generar la documentación ejecutamos **$ compodoc -p tsconfig.json**
 
-El segundo script servirá la documentación en **localhost:8080** al ejecutar **$ npm run serve-docs**
+Para servir la documentación en **localhost:8080** ejecutamos **$ compodoc -s**
+
+Si queremos generar la documentación y servirla a la vez ejecutamos **compodoc -p tsconfig.json -s**
 
 El resultado es bastante impresionante:
 
