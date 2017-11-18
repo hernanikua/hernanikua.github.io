@@ -81,7 +81,7 @@ Para generar la documentación ejecutamos **$ compodoc -p tsconfig.json**
 
 Para servir la documentación en **localhost:8080** ejecutamos **$ compodoc -s**
 
-Si queremos generar la documentación y servirla a la vez ejecutamos **compodoc -p tsconfig.json -s**
+Si queremos generar la documentación y servirla a la vez ejecutamos **$ compodoc -p tsconfig.json -s**
 
 El resultado es bastante impresionante:
 
